@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ADVENTURE</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--navbar-->
+	<nav class="navbar">
+		<h1 class="logo">Adventure</h1>
+		<ul class="nav-links">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="tours.html">Tours</a></li>
+			<li><a href="explore.html">Explpore</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="ctn"><a href="contact.html">Contact</a></li>
+			<div>
+			<button onclick="darkMode()">Darkmode</button>
+			</div>
+			
+		</ul>
+		<img src="menu-btn.png" alt="" class="menu-btn">
+		<i class="fa-sharp fa-solid fa-bars"></i>
+	</nav>
+	
+	<header>
+		<div class="header-content">
+			<h2>Explore the colourfull world</h2>
+			<div class="line"></div>
+			<h1>A Wonderful Gift</h1>
+			<a href="https://www.betterhealth.vic.gov.au/health/healthyliving/cycling-health-benefits#:~:text=Cycling%20can%20help%20to%20protect,%2C%20park%2C%20school%20or%20work." class="ctn">learn more</a>
+		</div>
+	</header>
+	<!---event-->
+	<section class="events">
+		<div class="title">
+			<h1>Upcomming Events</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="bike3.jpg" alt="">
+				<h4>Everest camp trek</h4>
+				<p>Trekking to the Mount Everest Base Camp in Nepal is in many ways like visiting a real mountain museum. Nowhere else on earth is there such a dense concentration of mountains of such stature. Four out of ten of the world’s highest peaks are here. Basically, you will be breathing and eating mountains throughout.</p>
+				<a href="https://www.advadventures.com/package/gokyo-lake-to-everest-base-camp-trek.html?gclid=Cj0KCQjw6_CYBhDjARIsABnuSzqM0OFunBYCqiT2NWMAEwwoQ1t_6S26UzSmLmyEtZHwjiIYIII5TRMaApV6EALw_wcB" class="ctn">Learn more</a>
+			</div>
+			<div class="col">
+				<img src="bike10.jpg" alt="">
+				<h4> Ride Puri to Konark</h4>
+				<p>Reserve bikes from Puri for a ride to Konark, the highway is very well maintained and the view is worth it. Its through the Balukhand-Konark wildlife sanctuary, so you can stop for a safari, visit the Sun Temple, lay around in the Konark beach and engage in some water sports..</p>
+				<a href="https://indiagirlsonbike.blogspot.com/" class="ctn">Learn more</a>
+			</div>
+			
+		</div>
+	</section>
+	<section class="explore">
+		<div class="explore-content">
+		<h1>Explore the world</h1>
+		<div class="line"></div>
+	<p><h2> Two-wheeled steerable machine that is pedaled by the rider's feet. On a standard bicycle the wheels are mounted in-line in a metal frame, with the front wheel held in a rotatable fork. The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork.</h2></p>
+	<a href="https://www.britannica.com/technology/bicycle" class="ctn">Learn more</a>
+	</div>
+	</section>
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h1>upcoming tours and Destination</h1>
+				<div class="line"></div>
+		<p>There is no better way to explore this rustic city other than to take a bike tour in the region. The region is full of palaces and forts, most tour packages cover the main ones. </p>
+		<a href="https://www.tourism-of-india.com/bike-tours/" class="ctn">Learn more</a>
+		</div>
+		<div class="col image-col">
+			<div class="image-gallery">
+				<img src="bike4.jpeg" alt=""  height="275" width="183">
+				<img src="bike5.jpg" alt=""  height="275" width="183">
+				<img src="bike6.jpg" alt=""  height="275" width="183">
+				<img src="bike7.jpg" alt="" height="275" width="183">
+				<img src="bike8.jpg" alt=""  height="275" width="183">
+				<img src="bike9.jpg" alt=""  height="275" width="183">
+			</div>
+			
+		</div>
+			
+		</div>
+		
+	</section>
+	<section class="footer">
+		<p> All Right Reserved || Developed by: Quantum India Group Member Sipun Rana</p>
+		<p>©2022 Moxtain | Terms of Use</p>
+		<p>&copy;Copyrights Claim by Quantum India Group</p>
+		<div class="social-apps flex">
+		<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/SIPUNRANA8?t=PG3cAD7wBOvK9KyFyAc2Jw&s=09" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/s_i_p_u_n_10/" class="fa fa-instagram"></a>
+		<a href="https://t.me/Sipunrana" class="fa fa-telegram"></a>
+		<a href="https://www.linkedin.com/in/sipun-rana-8a11a0234" class="fa fa-linkedin"></a>
+		<a href="https://t.snapchat.com/KN6qvRUb" class="fa fa-snapchat"></a>
+
+	</section>
+	<script type="text/javascript">
+		const menuBtn= document.querySelector('.menu-btn');
+		const navlinks= document.querySelector('.nav-links');
+
+		menuBtn.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+	</script>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		element.classList.toggle("dark-mode");
+	}
+	</script>
+	
+	
+
+</body>
+</html>

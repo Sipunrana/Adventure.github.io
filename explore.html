@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ADVENTURE</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(photo24.jpg);
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;}
+	.nav-links a {
+		color: whitesmoke;
+		display: flex;
+		justify-content: center;
+		
+	}
+	.header-content h1{
+		color: whitesmoke;
+	}
+	.header-content h1{
+		color: whitesmoke;
+	}
+	
+	</style>
+</head>
+<body>
+	<body class="about-content">
+	<nav class="navbar">
+		<h1 class="logo">Adventure</h1>
+		<ul class="nav-links">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a href="tours.html">Tours</a></li>
+	<li><a href="explore.html">Explpore</a></li>
+	<li><a href="about.html">About</a></li>
+	<div>
+			<button onclick="darkMode()">Darkmode</button>
+	</div>
+	</ul>
+		<img src="menubar.jpg" alt="" class="menu-btn">
+		<i class="fa-sharp fa-solid fa-bars"></i>
+	</nav>
+		<header>
+		<div class="header-content">
+			<h1>Share Your Riding Experience...</h1>
+			<div class="line"></div>
+			<h1>below the email Address..🤗</h1>
+			
+		</div>
+	
+	</header>
+	<section class="footer" style=" background-color: whitesmoke;">
+		<h1 style="color:  #484872; background-color: whitesmoke;">Contact Me on........</h1>
+		<div class="social-apps flex">
+		<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/SIPUNRANA8?t=PG3cAD7wBOvK9KyFyAc2Jw&s=09" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/s_i_p_u_n_10/" class="fa fa-instagram"></a>
+		<a href="https://www.linkedin.com/in/sipun-rana-8a11a0234" class="fa fa-linkedin"></a>
+		<a href="sipunrana506@gmail.com" class="fa fa-envelope"></a>
+		
+	</section>
+	<section class="footer">
+		
+		<p> All Right Reserved || Developed by: Quantum India Group Member Sipun Rana</p>
+		<p>©2022 Moxtain | Terms of Use</p>
+		<p>&copy;Copyrights Claim by Quantum India Group</p>
+
+	</section>
+
+	<script type="text/javascript">
+		const menuBtn= document.querySelector('.menu-btn');
+		const navlinks= document.querySelector('.nav-links');
+
+		menuBtn.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+	</script>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		element.classList.toggle("dark-mode");
+	}
+	</script>
+	
+</body>
+</html>
