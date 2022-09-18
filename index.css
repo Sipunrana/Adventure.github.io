@@ -191,7 +191,7 @@ p{
 	margin-left: 10px;
 }
 .footer{
-	width: 88%;
+	width: 100%;
 	min-height: 150px;
 	padding: 20px 80px;
 	margin: 0;
@@ -401,6 +401,4 @@ li:hover{
 	color: #fc036b;
 	cursor: pointer;
 }
-.dark-mode {
-		background-color: black;
-		color: whitesmoke;}
+
